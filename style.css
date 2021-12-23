@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.container .download_btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-top: 100px;
+    height: 300px;
+    /* width: 40vw; */
+}
+
+.container .download_btns button{
+    width: 180px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    background-color: rgb(255, 227, 227);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .download_btns button a{
+    color: black;
+    text-decoration: none;
+}
+
+.container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
